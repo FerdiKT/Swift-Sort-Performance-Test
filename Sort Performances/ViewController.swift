@@ -45,7 +45,7 @@ class ViewController: UIViewController {
             var endDate: NSDate = NSDate()
             var dateComponents: NSDateComponents = NSCalendar(calendarIdentifier: NSCalendarIdentifierGregorian)!.components(NSCalendarUnit.CalendarUnitNanosecond, fromDate: startDate, toDate: endDate, options: NSCalendarOptions(0))
             progress.append((Float)(dateComponents.nanosecond))
-            timeMerge.text = (String)(dateComponents.nanosecond/1000000) + "ms"
+            timeMerge.text = (String)(dateComponents.nanosecond/1000) + "μs"
             
             array2 = array
             startDate = NSDate()
@@ -53,7 +53,7 @@ class ViewController: UIViewController {
             endDate = NSDate()
             dateComponents = NSCalendar(calendarIdentifier: NSCalendarIdentifierGregorian)!.components(NSCalendarUnit.CalendarUnitNanosecond, fromDate: startDate, toDate: endDate, options: NSCalendarOptions(0))
             progress.append((Float)(dateComponents.nanosecond))
-            timeSelection.text = (String)(dateComponents.nanosecond/1000000) + "ms"
+            timeSelection.text = (String)(dateComponents.nanosecond/1000) + "μs"
             
             array2 = array
             startDate = NSDate()
@@ -61,7 +61,7 @@ class ViewController: UIViewController {
             endDate = NSDate()
             dateComponents = NSCalendar(calendarIdentifier: NSCalendarIdentifierGregorian)!.components(NSCalendarUnit.CalendarUnitNanosecond, fromDate: startDate, toDate: endDate, options: NSCalendarOptions(0))
             progress.append((Float)(dateComponents.nanosecond))
-            timeQuick.text = (String)(dateComponents.nanosecond/1000000) + "ms"
+            timeQuick.text = (String)(dateComponents.nanosecond/1000) + "μs"
             
             array2 = array
             startDate = NSDate()
@@ -69,7 +69,7 @@ class ViewController: UIViewController {
             endDate = NSDate()
             dateComponents = NSCalendar(calendarIdentifier: NSCalendarIdentifierGregorian)!.components(NSCalendarUnit.CalendarUnitNanosecond, fromDate: startDate, toDate: endDate, options: NSCalendarOptions(0))
             progress.append((Float)(dateComponents.nanosecond))
-            timeInsertion.text = (String)(dateComponents.nanosecond/1000000) + "ms"
+            timeInsertion.text = (String)(dateComponents.nanosecond/1000) + "μs"
             
             array2 = array
             startDate = NSDate()
@@ -77,7 +77,7 @@ class ViewController: UIViewController {
             endDate = NSDate()
             dateComponents = NSCalendar(calendarIdentifier: NSCalendarIdentifierGregorian)!.components(NSCalendarUnit.CalendarUnitNanosecond, fromDate: startDate, toDate: endDate, options: NSCalendarOptions(0))
             progress.append((Float)(dateComponents.nanosecond))
-            timeBubble.text = (String)(dateComponents.nanosecond/1000000) + "ms"
+            timeBubble.text = (String)(dateComponents.nanosecond/1000) + "μs"
             
             array2 = array
             startDate = NSDate()
@@ -85,7 +85,7 @@ class ViewController: UIViewController {
             endDate = NSDate()
             dateComponents = NSCalendar(calendarIdentifier: NSCalendarIdentifierGregorian)!.components(NSCalendarUnit.CalendarUnitNanosecond, fromDate: startDate, toDate: endDate, options: NSCalendarOptions(0))
             progress.append((Float)(dateComponents.nanosecond))
-            timeShell.text = (String)(dateComponents.nanosecond/1000000)
+            timeShell.text = (String)(dateComponents.nanosecond/1000) + "μs"
             
             var bigger:Float = 0.0
             var divider: Float = 1
