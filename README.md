@@ -9,4 +9,4 @@ After that it crashed in simulator.
 I don't use thread so while sorting the app can freeze.
 
 Feel free to use sorting algorithms.
-<img src="https://goo.gl/photos/MdpVkpwEXtx7fcPp7"/>
+<img src="https://lh3.googleusercontent.com/XpHF90Q9YUjVu_62dt1cJZo03qi5LQu6_dK8G_GGoDZm=w405-h665-no"/>
